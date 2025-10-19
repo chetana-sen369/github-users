@@ -1,35 +1,3 @@
-// import React, { useContext, useState } from 'react'
-// import "../styles/Search.css";
-// import {UserContext} from "../context/Context";
-// const Search = () => {
-//   const [username, setUsername] = useState("");
-//   const {searchUsers,defaultUsers}=useContext(UserContext);
-
-//   function handleSubmit(e) {
-//     e.preventDefault();
-//     if (username.trim() !== "") {
-//       searchUsers(username);
-      
-//     }
-//   }
-//   return (
-//     <div className="search-container">
-//       <form className="search-form" onSubmit={handleSubmit}>
-//         <input type="text"
-//           placeholder="search profiles(e.g chetana,Anjali)"
-//           value={username}
-//           onChange={(e) => {
-//             setUsername(e.target.value);
-//           }
-
-//           } />
-//         <button className='btn-dark'>Search</button>
-//       </form>
-//     </div>
-//   )
-// }
-
-// export default Search
 import React, { useContext, useState, useEffect } from 'react';
 import "../styles/Search.css";
 import { UserContext } from "../context/Context";

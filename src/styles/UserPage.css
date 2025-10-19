@@ -1,0 +1,99 @@
+.user-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.user-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 800px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.user-header a{
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    padding-block: 8px;
+}
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+}
+
+.user-info h1 {
+  margin-bottom: 10px;
+}
+
+.open-to-work {
+  color: green;
+  font-weight: 500;
+}
+.not-available{
+color: crimson;
+font-weight: 500;
+}
+.bio {
+  margin: 8px 0;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.user-stats div{
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+.user-stats div h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.user-stats div p {
+  margin: 4px 0 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-details p {
+  margin: 6px 0;
+}
+
+.loading {
+  border:6px solid #f3f3f3;
+  border-top:6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height:40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+@keyframes spin{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+

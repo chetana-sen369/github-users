@@ -25,3 +25,26 @@
     margin-left: 10px;
     border-radius: 3px;
 }
+@media (max-width: 768px) {
+  .search-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .search-form input {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .search-form button {
+    width: 100%;
+    margin-left: 0;
+    font-size: 15px;
+  }
+}

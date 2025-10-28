@@ -97,3 +97,74 @@ font-weight: 500;
   100%{transform: rotate(360deg);}
 }
 
+@media (max-width: 992px) {
+  .user-card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .user-header {
+    gap: 20px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .user-header a {
+    width: 100%;
+  }
+
+  .avatar {
+    width: 130px;
+    height: 130px;
+  }
+
+  .user-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .user-stats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .user-stats div {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-card {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .user-info h1 {
+    font-size: 1.3rem;
+  }
+
+  .user-stats div {
+    width: 100px;
+    padding: 15px;
+  }
+
+  .user-stats div p {
+    font-size: 16px;
+  }
+}

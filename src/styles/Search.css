@@ -3,10 +3,12 @@
    justify-content: center;
    margin-block: 2.3rem;
    font-size: 18px;
+   padding-inline: 1rem;
 }
 .search-form{
    display: flex;
     width: 50%;
+    max-width: 600px;
 }
 .search-form input{
     flex:1;
